@@ -7,4 +7,8 @@ if not is_ok then
     return
 end
 
-vim.g.airline_theme = 'atomic'
+vim.g.airline_theme = 'molokai'
+vim.g.airline_powerline_fonts = 1
+vim.g['airline#extensions#tabline#enabled'] = 1
+vim.g['airline#extensions#tabline#formatter'] = 'unique_tail'
+
