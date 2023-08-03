@@ -7,3 +7,4 @@ if not is_ok then
     return
 end
 
+vim.g.airline_theme = 'atomic'

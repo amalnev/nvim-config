@@ -90,6 +90,16 @@ _G.packer_plugins = {
     path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/tabular",
     url = "https://github.com/godlygeek/tabular"
   },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    url = "https://github.com/vim-airline/vim-airline-themes"
+  },
   ["vim-colors-xcode"] = {
     loaded = true,
     path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/vim-colors-xcode",

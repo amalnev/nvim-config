@@ -16,4 +16,5 @@ An attempt to use NeoVim as a Java IDE
 4. Markdown support
   - Syntax highlighting for .md files
   - Use :Glow to open a preview window, :Glow! or Esc to close it
-
+5. Better and customizable status line. Use :AirlineTheme theme or set vim.g.airline_theme in
+  the configuration to choose the status line theme.

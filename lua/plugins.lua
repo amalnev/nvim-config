@@ -39,6 +39,8 @@ return require('packer').startup(function(use)
     use 'elzr/vim-json'
     use 'plasticboy/vim-markdown'
     use {"ellisonleao/glow.nvim", config = function() require("glow").setup() end}
+    use 'vim-airline/vim-airline'
+    use 'vim-airline/vim-airline-themes'
     ---------------------------------------
     -- NOTE: PUT YOUR THIRD PLUGIN HERE --
     ---------------------------------------
