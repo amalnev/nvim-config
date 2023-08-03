@@ -35,6 +35,10 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
     use 'lunacookies/vim-colors-xcode'
+    use 'godlygeek/tabular'
+    use 'elzr/vim-json'
+    use 'plasticboy/vim-markdown'
+    use {"ellisonleao/glow.nvim", config = function() require("glow").setup() end}
     ---------------------------------------
     -- NOTE: PUT YOUR THIRD PLUGIN HERE --
     ---------------------------------------

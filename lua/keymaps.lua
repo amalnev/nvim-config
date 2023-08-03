@@ -15,6 +15,8 @@ vim.keymap.set('n', '<C-j>', '<C-w>j', opts)
 vim.keymap.set('n', '<C-k>', '<C-w>k', opts)
 vim.keymap.set('n', '<C-l>', '<C-w>l', opts)
 vim.keymap.set('n', '<C-c>', ':close<CR>', opts)
+vim.keymap.set('n', '<C-v>', '<C-w>v', opts)
+vim.keymap.set('n', '<C-h>', '<C-w>n', opts)
 
 -- Resize with arrows
 -- delta: 2 lines
@@ -41,4 +43,5 @@ vim.keymap.set('n', '<A-S-c>', ':tabonly<CR>', opts)
 -- Hint: start visual mode with the same area as the previous area and the same mode
 vim.keymap.set('v', '<', '<gv', opts)
 vim.keymap.set('v', '>', '>gv', opts)
+
 
