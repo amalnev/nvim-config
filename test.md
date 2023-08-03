@@ -1,7 +1,7 @@
 # Custom NeoVim configuration
 An attempt to use NeoVim as a Java IDE
 
-### Basic fetures so far
+### Basic features so far
 1. Custom window management. 
   - Use C-h(j,k,l) in normal mode to switch between windows on a single tab
   - Use C-h(v) to open a new window to the right or under the current window
