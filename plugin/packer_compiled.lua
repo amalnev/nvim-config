@@ -125,6 +125,11 @@ _G.packer_plugins = {
     path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/vim-colors-xcode",
     url = "https://github.com/lunacookies/vim-colors-xcode"
   },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
+  },
   ["vim-json"] = {
     loaded = true,
     path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/vim-json",
