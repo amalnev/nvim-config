@@ -80,6 +80,16 @@ _G.packer_plugins = {
     path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/glow.nvim",
     url = "https://github.com/ellisonleao/glow.nvim"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/nvim-jdtls",
+    url = "https://github.com/mfussenegger/nvim-jdtls"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/packer.nvim",
