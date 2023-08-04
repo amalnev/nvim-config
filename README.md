@@ -19,3 +19,11 @@ An attempt to use NeoVim as a Java IDE
 5. Better and customizable status line. Use :AirlineTheme theme or set vim.g.airline_theme in
   the configuration to choose the status line theme.
 6. Telescope. Use \ff or \fg in normal mode to open search interface
+7. Eclipse's jdtls language server integration for java. Check ftplugin/java.lua for keymaps
+  regarding code navigation, diagnostics, etc.
+
+### JDTLS installation
+1. Clone sources from git
+2. Run mvn clean package
+3. Copy everything from ./org.eclipse.jdt.ls.product/target/repository somewhere in the filesystem
+4. Make that destination directory writeable to all users (recursively, i.e. including all subdirs)
