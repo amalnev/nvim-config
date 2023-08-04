@@ -31,3 +31,11 @@ vim.g.vim_markdown_frontmatter = 1
 vim.g.vim_markdown_toml_frontmatter = 1  
 vim.g.vim_markdown_json_frontmatter = 1  
 vim.g.mkdp_auto_close = 0
+
+-- Disable unneccessary language support
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_ruby_provider = 0
+vim.g.loaded_node_provider = 0
+vim.g.loaded_python_provider = 0
+vim.g.loaded_python3_provider = 0
+
