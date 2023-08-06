@@ -15,8 +15,8 @@ vim.keymap.set('n', '<C-j>', '<C-w>j', opts)
 vim.keymap.set('n', '<C-k>', '<C-w>k', opts)
 vim.keymap.set('n', '<C-l>', '<C-w>l', opts)
 vim.keymap.set('n', '<C-c>', ':close<CR>', opts)
-vim.keymap.set('n', '<C-v>', '<C-w>v', opts)
-vim.keymap.set('n', '<C-h>', '<C-w>n', opts)
+vim.keymap.set('n', '<A-v>', '<C-w>v', opts)
+vim.keymap.set('n', '<A-h>', '<C-w>n', opts)
 
 -- Resize with arrows
 -- delta: 2 lines
