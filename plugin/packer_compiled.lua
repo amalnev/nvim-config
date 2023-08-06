@@ -123,17 +123,12 @@ _G.packer_plugins = {
     url = "https://github.com/ellisonleao/glow.nvim"
   },
   ["nvim-cmp"] = {
-    after = { "cmp-nvim-lsp", "cmp-buffer", "cmp-path", "cmp-cmdline" },
+    after = { "cmp-cmdline", "cmp-nvim-lsp", "cmp-path", "cmp-buffer" },
     config = { "require('config.nvim-cmp')" },
     loaded = true,
     only_config = true,
     path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
-  },
-  ["nvim-dap"] = {
-    loaded = true,
-    path = "/home/amalnev/.local/share/nvim/site/pack/packer/start/nvim-dap",
-    url = "https://github.com/mfussenegger/nvim-dap"
   },
   ["nvim-jdtls"] = {
     loaded = true,
@@ -203,20 +198,20 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-cmp
-time([[Config for nvim-cmp]], true)
-require('config.nvim-cmp')
-time([[Config for nvim-cmp]], false)
 -- Config for: glow.nvim
 time([[Config for glow.nvim]], true)
 try_loadstring("\27LJ\2\n2\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\tglow\frequire\0", "config", "glow.nvim")
 time([[Config for glow.nvim]], false)
+-- Config for: nvim-cmp
+time([[Config for nvim-cmp]], true)
+require('config.nvim-cmp')
+time([[Config for nvim-cmp]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
 vim.cmd [[ packadd cmp-buffer ]]
-vim.cmd [[ packadd cmp-nvim-lsp ]]
-vim.cmd [[ packadd cmp-path ]]
 vim.cmd [[ packadd cmp-cmdline ]]
+vim.cmd [[ packadd cmp-path ]]
+vim.cmd [[ packadd cmp-nvim-lsp ]]
 time([[Sequenced loading]], false)
 
 _G._packer.inside_compile = false

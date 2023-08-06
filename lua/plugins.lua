@@ -49,7 +49,6 @@ return require('packer').startup(function(use)
         'nvim-telescope/telescope.nvim', tag = '0.1.2',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
-    use 'mfussenegger/nvim-dap'
     use 'mfussenegger/nvim-jdtls'
     use { 'hrsh7th/nvim-cmp', config = [[require('config.nvim-cmp')]] }    
     use { 'hrsh7th/cmp-nvim-lsp', after = 'nvim-cmp' } 
